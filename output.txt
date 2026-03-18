@@ -1,0 +1,93 @@
+Reader 0 acquired read lock (loop 0)
+Reader 1 acquired read lock (loop 0)
+Reader 2 acquired read lock (loop 0)
+Reader 3 acquired read lock (loop 0)
+Reader 4 acquired read lock (loop 0)
+Reader 2 read sum = 45
+Reader 2 releasing read lock
+Reader 3 read sum = 45
+Reader 3 releasing read lock
+Reader 1 read sum = 45
+Reader 1 releasing read lock
+Reader 0 read sum = 45
+Reader 0 releasing read lock
+Reader 4 read sum = 45
+Reader 4 releasing read lock
+Writer 0 acquired write lock (loop 0)
+Writer 0 finished writing
+Writer 0 releasing write lock
+Writer 1 acquired write lock (loop 0)
+Writer 1 finished writing
+Writer 1 releasing write lock
+Writer 0 acquired write lock (loop 1)
+Writer 0 finished writing
+Writer 0 releasing write lock
+Writer 1 acquired write lock (loop 1)
+Writer 1 finished writing
+Writer 1 releasing write lock
+Writer 0 acquired write lock (loop 2)
+Writer 0 finished writing
+Writer 0 releasing write lock
+Writer 1 acquired write lock (loop 2)
+Writer 1 finished writing
+Writer 1 releasing write lock
+Reader 3 acquired read lock (loop 1)
+Reader 2 acquired read lock (loop 1)
+Reader 4 acquired read lock (loop 1)
+Reader 0 acquired read lock (loop 1)
+Reader 1 acquired read lock (loop 1)
+Reader 3 read sum = 105
+Reader 3 releasing read lock
+Reader 2 read sum = 105
+Reader 2 releasing read lock
+Reader 4 read sum = 105
+Reader 4 releasing read lock
+Reader 1 read sum = 105
+Reader 1 releasing read lock
+Reader 0 read sum = 105
+Reader 0 releasing read lock
+Reader 2 acquired read lock (loop 2)
+Reader 3 acquired read lock (loop 2)
+Reader 1 acquired read lock (loop 2)
+Reader 4 acquired read lock (loop 2)
+Reader 0 acquired read lock (loop 2)
+Reader 2 read sum = 105
+Reader 2 releasing read lock
+Reader 3 read sum = 105
+Reader 1 read sum = 105
+Reader 1 releasing read lock
+Reader 3 releasing read lock
+Reader 3 acquired read lock (loop 3)
+Reader 4 read sum = 105
+Reader 4 releasing read lock
+Reader 2 acquired read lock (loop 3)
+Reader 1 acquired read lock (loop 3)
+Reader 0 read sum = 105
+Reader 0 releasing read lock
+Reader 0 acquired read lock (loop 3)
+Reader 4 acquired read lock (loop 3)
+Reader 3 read sum = 105
+Reader 3 releasing read lock
+Reader 3 acquired read lock (loop 4)
+Reader 1 read sum = 105
+Reader 1 releasing read lock
+Reader 2 read sum = 105
+Reader 2 releasing read lock
+Reader 2 acquired read lock (loop 4)
+Reader 0 read sum = 105
+Reader 0 releasing read lock
+Reader 0 acquired read lock (loop 4)
+Reader 4 read sum = 105
+Reader 4 releasing read lock
+Reader 1 acquired read lock (loop 4)
+Reader 3 read sum = 105
+Reader 3 releasing read lock
+Reader 4 acquired read lock (loop 4)
+Reader 2 read sum = 105
+Reader 2 releasing read lock
+Reader 0 read sum = 105
+Reader 0 releasing read lock
+Reader 1 read sum = 105
+Reader 1 releasing read lock
+Reader 4 read sum = 105
+Reader 4 releasing read lock
